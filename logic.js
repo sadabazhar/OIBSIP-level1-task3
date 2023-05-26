@@ -38,7 +38,7 @@ kelvinValue.addEventListener("input", function () {
   fahrenheitValue.value = roundNumber(fahTemp);
 });
 
-// All clean
+// For erase all input value
 btn.addEventListener("click", () => {
   celciusValue.value = "";
   fahrenheitValue.value = "";
