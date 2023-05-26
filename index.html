@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="icon"
+        href="https://cdn1.vectorstock.com/i/1000x1000/69/30/high-temperature-circle-icon-vector-30246930.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Temperature Converter</h1>
+            <span><i class="fa-solid fa-temperature-three-quarters fa-2xl"></i></span>
+        </div>
+        <hr>
+        <div class="container-body">
+            <div class="celcius">
+                <input type="number" name="Celcius" id="Celcius" placeholder="Celcius">
+                <label for="Celcius" class="icon">&#8451;</label>
+            </div>
+            <div class="fahrenheit">
+                <input type="number" name="Fahrenheit" id="Fahrenheit" placeholder="Fahrenheit">
+                <label for="Fahrenheit" class="icon">&#8457;</label>
+            </div>
+            <div class="kelvin">
+                <input type="number" name="Kelvin" id="Kelvin" placeholder="Kelvin">
+                <label for="Kelvin" class="icon">&#8490;</label>
+            </div>
+            <div class="clean">
+                <button type="button" class="btn btn-outline-danger">All Clear</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./logic.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to left bottom, lightgreen, lightblue);
+  font-family: "Poppins", sans-serif;
+  color: darkcyan;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  width: 95vh;
+  height: 65vh;
+}
+
+.container .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  gap: 15px;
+}
+
+.title h1 {
+  font-weight: 800;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  width: 70vh;
+  margin: 20px 0px 0px 65px;
+}
+
+.celcius,
+.fahrenheit,
+.kelvin,
+.clean {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  gap: 5px;
+}
+
+input {
+  flex: 5;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 50px;
+  background-color: darkcyan;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+}
